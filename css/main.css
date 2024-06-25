@@ -32,8 +32,45 @@ table, tr,th,td,caption {
     padding: 0.5rem;
 }
 
-/*style.css login form*/
-body {
+.hero{
+    height: 100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+    background-position; center;
+    background-size; cover;
+    position: absolute;
+}
+
+
+.form-box{
+    width:380px;
+    height: 480px;
+    position: relative;
+    margin:6% auto ;
+    background: #fff;
+    paddding; 5px;
+}
+
+.button-box{
+    width: 20px;
+    margin: 35PX;
+    position: relative;
+    box-shadow: 0 0 20px 9px #ff612f;
+    border-radius: 30px;
+}
+
+.toggle-btn{
+    padding: 10px 30px ;
+    cursor:pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+ 
+
+/*style.css*/
+.form {
     display: flex;
     align-items: center;
     justify-content: center;
