@@ -8,7 +8,9 @@ form.addEventListener('submit',(e) =>  "" null ){
         messages.push('Name is required')
     }
 
-    
+    if (Email.value == '' || Email.value == null){
+        messages.push('Email is null')
+     }
 
     if (messages.length > 0){
         e.preventDefault()
