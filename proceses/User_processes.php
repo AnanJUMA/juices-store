@@ -3,10 +3,10 @@
 session_start();
 
 // Import database connection
-require_once "../config/dbConnect.php";
+require_once "./config/dbConnect.php";
 
 // Sign up process
-if (isset($_POST["signup"])) {
+if (isset($_POST["sign-up"])) {
     $username = mysqli_real_escape_string($dbConn, $_POST["username"]);
     $email = mysqli_real_escape_string($dbConn, $_POST["email"]);
     $password = mysqli_real_escape_string($dbConn, $_POST["password"]);
@@ -29,7 +29,7 @@ if (isset($_POST["signup"])) {
 }
 
 // Sign in process
-if (isset($_POST["signin"])) {
+if (isset($_POST["sign-in"])) {
     $entered_username = mysqli_real_escape_string($dbConn, $_POST["username"]);
     $entered_password = mysqli_real_escape_string($dbConn, $_POST["password"]);
     

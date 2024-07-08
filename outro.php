@@ -16,19 +16,19 @@
                 <a href="/">Home</a>
             </li>
             <li>
-                <a href="about.html">About <abbr title="Tuju's juice shop">TJS</abbr></a>
+                <a href="./about.html">About <abbr title="Tuju's juice shop">TJS</abbr></a>
             </li>
             <li>
-                <a href="hours.html">Store hours</a>
+                <a href="./hours.html">Store hours</a>
             </li>
             <li>
-                <a href="offers.html">Store offers</a>
+                <a href="./offers.html">Store offers</a>
             </li>
             <li>
-                <a href="menu.html">Store menu</a>
+                <a href="./menu.html">Store menu</a>
             </li>
             <li>
-                <a href="contact.html">Contact us</a>
+                <a href="./contact.html">Contact us</a>
             </li>
         </ul>
     </nav>
